@@ -1,0 +1,54 @@
+.chanceToWin-nav .navbar-menu li a  {
+    text-decoration: none;
+    color: #253759;
+    font-weight: bold;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+}
+
+.chanceToWin-nav .navbar-menu a:hover {
+    color: #95ACBF;
+  }
+
+  p {
+	font-size: 18px;
+    color: #253759;
+  }
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 100vh;
+  max-width: 500px; /* or any desired maximum width */
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="email"] {
+	padding: 10px;
+	margin: 10px;
+	font-size: 18px;
+    color: #253759;
+    background-color: hsla(0, 0%, 95%, 0.56);
+}
+
+button[type="submit"] {
+	background-color: #95ACBF;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	font-size: 18px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+button[type="submit"]:hover {
+  background-color: #95ACBF;
+}
